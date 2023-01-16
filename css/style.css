@@ -1,0 +1,160 @@
+body { background-color: rgb(121, 89, 240);}
+form {
+    background-color: #ededfa;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    margin: 10%;
+    border: 2px solid black;
+    border-radius: 15px;
+    align-self: center;
+    align-items: center;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input, select {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    border:none;
+    border: 1px solid black;
+    color:black;
+    
+}
+input:hover {
+    background-color: rgb(187, 186, 186);
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.left {
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+    background-color: rgb(72, 52, 145);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+.searchBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .searchBtn:hover {
+    background-color: #bbb;
+  }
+  .bar {
+    display: flex;
+  }
+  .goal{
+    background-color: #ededfa;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10%;
+    margin: 10px;
+    margin-right: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    align-self: center;
+    align-items: center;
+    padding: 2%;
+}
+.date{
+    align-self: end;
+}
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+.middle{
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+.middle h1{ align-self: center;}
+
+#checkboxes ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    list-style: none;
+    float: left;
+}
+.checkbox{
+    padding: 0px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.addGoal{
+    color: white;
+    background-color: #7b7bff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
+    margin: 10px;
+    margin-right: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    align-self: center;
+    align-items: center;
+    padding: 2%;
+}
+.addGoal input{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.addGoal .middle{
+    padding-left: 10%;
+    padding-bottom: 20px;
+}
